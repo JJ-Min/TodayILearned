@@ -1,6 +1,6 @@
 
 # MarkDown Syntax Study
-일반텍스트 작성법.
+일반텍스트 작성법..
 ## 제목(Header)
 
 Header1           Header2
