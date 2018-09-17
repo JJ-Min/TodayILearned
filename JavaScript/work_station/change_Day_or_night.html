@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>버튼을 누르면 html 배경색을 바꿔보자</h1>
+  <h3>자바스크립트를 위한 실습이기때문에 html,css는 걍 대충때리겠음 귀찮은거 절대아님..</h3>
+  <input type="button" name="" value="night" onclick="
+    var target=document.querySelector('body');
+    if(this.value==='night'){
+     target.style.background='black';
+     target.style.color='white';
+     this.value='day';}
+     else{
+       target.style.background='white';
+       target.style.color='black';
+       this.value='night'; }">
+</body>
+
+</html>
