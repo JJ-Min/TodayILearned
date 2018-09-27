@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
+    function pr(msg, arr) {
+      document.write(msg + arr.toString() + "<br />");
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Array 객체의 메소드 활용</h1>
+  <script type="text/javascript">
+    var a = new Array("김", "아", "름");
+    var b = new Array("강");
+    var c;
+
+    pr("배열 a", a);
+    pr("배열 b", b);
+    document.write("<hr />");
+
+    c = a.concat(b); // a와 b 결합
+    pr("a.concat(b) 후 c", c);
+    pr("a.concat(b) 후 c", a)
+
+    c = a.join("$$"); // 배열 a 를 연결한 문자열
+    pr("a.join 후 c", c);
+    pr("a.join 후 a", a);
+
+    c = a.reverse(); //  reverse 하면 a 자체도 역 순이 됨.
+    pr("a.reverse 후 c", c);
+    pr("a.reverse 후 a", a);
+
+    c = a.slice(1, 2); // c는 새 배열  1,2번째 원소를 잘라먹겠단 것 같음
+    pr("c= a.slice(1, 2) 후 c = ", c);
+    pr("c= a.slice(1, 2) 후 a = ", a);
+
+    c = a.sort(); // a.sort()는 a 자체 변경. c는 배열 정렬
+    pr("c= a.sort() 후 c = ", c);
+    pr("c= a.sort() 후 a = ", a);
+
+    c = a.toString(); // toString()은 원소 사이에 ","를 넣어 문자열 생성
+    document.write("a.toString() : " + c); // c 는 문자열
+  </script>
+</body>
+
+</html>
