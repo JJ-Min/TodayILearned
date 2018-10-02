@@ -30,7 +30,7 @@ member$sex #성별 출력
 member[1,2] <- m  # 데이터 수정 가능 ㅇㅇ
 ~~~
 
-##파일 읽어오기
+## 파일 읽어오기
 - **파일로 읽어와서 변수에 꼭 담아야함(중요)**
 - .excel 파일은 .txt 혹은 .csv로 파일 확장자를 변경 해야함
 - 첫 줄이 실제 데이터가 아닌 속성들의 이름 이라면 header는 트루임
@@ -51,7 +51,7 @@ max(lungdata.age) # 해당 데이터의 값들 중 최고 값
 ~~~
 runif(100) # 0~1 사이에 있는 값들을 랜덤으로 100개 추출
 roll <- 1000000000  # 주사위 던질 횟수
-die <- ceiling(runif(roll)*6) //1~6까지 랜덤으로 roll개 뽑아서 die 에 저장
+die <- ceiling(runif(roll)*6) #1~6까지 랜덤으로 roll개 뽑아서 die 에 저장
 b <- table(die) # die 값을 table에 담아 변수 b 에 저장
-barplot(b) <- table의 결과를 그래프로 보여줌
+barplot(b) <- # table의 결과를 그래프로 보여줌
 ~~~
