@@ -53,5 +53,5 @@ runif(100) # 0~1 사이에 있는 값들을 랜덤으로 100개 추출
 roll <- 1000000000  # 주사위 던질 횟수
 die <- ceiling(runif(roll)*6) #1~6까지 랜덤으로 roll개 뽑아서 die 에 저장
 b <- table(die) # die 값을 table에 담아 변수 b 에 저장
-barplot(b) <- # table의 결과를 그래프로 보여줌
+barplot(b) <- # table의 결과를 그래프로 보여줌.
 ~~~
