@@ -16,4 +16,4 @@ ceiling(avg_math)
 total <- student$kor+student$math+student$eng
 which.max(total) # 총점 1위의 학생의 위치
 student[which.max(total),]  #1위 학생의 이름과 성적 
-
+total[which.max(total)] #1등의 점수 
