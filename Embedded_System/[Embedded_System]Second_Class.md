@@ -9,17 +9,17 @@
 - `pwd `(Print Working Directory) : 현재 위치한 디렉토리 확인
 
 -  `cd`(Change Directory): 디렉토리 이동
- <br>
+
 - `ls`(List): 현재 위치한 디렉토리에 있는 하위 디렉토리와 파일을 보여줌
     - `ls -a`: 모든 파일 보여줌(숨김파일까지)
     -  `ls -l` : 자세히 보기
     - `ls -al` : 환경파일 + 자세히보기
- <br>
+
 - `mkdir`(Make Directory)+디렉토리 이름: 디렉토리 생성
 - `cp`(Copy) : 파일 혹은 디렉토리 복사
    - `cp test.txt test1.txt` ===> test.txt를 test1.txt로 복사 (file Copy)
    - `cp -r aaa aaa1`  ===> 폴더 aaa를 폴더 aaa1으로 복사(Directory Copy)
- <br>
+ 
 - `mv`(Move): 파일과 디렉토리의 이름을 변경하거나 이동
    - `mv test.txt test1.txt` ===> test 를 test1로 이름 바꾸기
    - `mv test2.txt aaa2`  ===> teset2를 aaa2로 이동
@@ -71,4 +71,4 @@
 ---
 
 ## 리눅스 파일 권한의 구성
-    ![linux.png](linux.png) 
+    ![linux.png](linux.png)
