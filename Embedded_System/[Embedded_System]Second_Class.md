@@ -19,7 +19,7 @@
 - `cp`(Copy) : 파일 혹은 디렉토리 복사
    - `cp test.txt test1.txt` ===> test.txt를 test1.txt로 복사 (file Copy)
    - `cp -r aaa aaa1`  ===> 폴더 aaa를 폴더 aaa1으로 복사(Directory Copy)
- 
+
 - `mv`(Move): 파일과 디렉토리의 이름을 변경하거나 이동
    - `mv test.txt test1.txt` ===> test 를 test1로 이름 바꾸기
    - `mv test2.txt aaa2`  ===> teset2를 aaa2로 이동
@@ -71,4 +71,4 @@
 ---
 
 ## 리눅스 파일 권한의 구성
-    ![linux.png](linux.png)
+    함께 올려놓은 linux.png 참고 
