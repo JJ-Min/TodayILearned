@@ -126,7 +126,8 @@ delete me3.speak //delete를 이용하여 me3의 프로퍼티 제거 가능
 ~~~
 
 
-
+#### 참고
+ Learning JavaScript/한빛 미디어
 ----
 #### 마치며
 
